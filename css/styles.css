@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: akira;
+}
+
+@font-face {
+    font-family: akira;
+    src: url(../font/FontsFree-Net-Akira-Expanded-Demo.ttf);
+}
+
+
+
+/* BANNER */
+
+header {
+    background-color: rgb(95, 95, 95);
+    background-image: url(../img/index/banner.jpg);
+    background-size: contain;
+
+}
+
+h1 {
+    color: whitesmoke;
+    margin-left: 32%;
+    padding: 0.5em;
+    font-size: 50px;
+
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    padding: 1em;
+
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+
+
+}
+
+
+
+/* CUERPO PRINCIPAL DE LAS PAGINAS */
+
+p {
+    text-align: center;
+    padding: 0.5em;
+    color: whitesmoke;
+}
+
+.section-contenedor {
+    background-color: #404b62;
+    padding: 1em;
+    justify-content: center;
+
+}
+
+/* PAGINA INDEX */
+
+.fotos-alumnos {
+    width: 390px;
+    padding: 1em;
+
+}
+
+
+/* PAGINA SOBRE NOSOTROS */
+
+.video-ejercicios {
+    width: 300px;
+    padding: 0.5em;
+    margin-left: 80px;
+
+}
+
+span {
+    background-color: rgb(255, 255, 255);
+    color: #404b62;
+    padding: 2px;
+}
+
+/* PAGINA CONTACTOS */
+
+.logos-contactos {
+    width: 150px;
+    padding: 4em;
+    margin-left: 105px;
+
+
+}
+
+/* PAGINA RUTINAS */
+
+table {
+    margin-left: 200px;
+    padding: 1em;
+}
+
+tr {
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+td {
+    padding: 1em;
+
+}
+
+/* PAGINA INSCRIBETE */
+
+form {
+    background-color: rgb(95, 95, 95);
+    padding: 3em;
+    width: 50%;
+    margin-left: 20%;
+
+
+}
+
+label {
+    margin-bottom: 25%;
+}
+
+.controles {
+    background-color: #404b62;
+    width: 50%;
+    padding: 1em;
+    margin-bottom: 20px;
+    margin-left: 25%;
+
+}
+
+.boton {
+    width: 55%;
+    padding: 1em;
+    margin-left: 25%;
+    background-color: #1f53c5;
+}

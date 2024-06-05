@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscribete</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- banner de la pagina -->
+
+    <header>
+
+        <h1>BIENVENIDOS</h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="../pages/contactos.html">Contactos</a></li>
+                <li><a href="../pages/rutinas.html">Rutinas</a></li>
+                <li><a href="../pages/inscribete.html">Inscribete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- cuerpo principal de la pagina -->
+
+    <main>
+
+        <section class="section-contenedor">
+
+            <h2>DEJANOS TUS DATOS PARA CONTACTARTE</h2>
+
+            <p>Te estaremos llamando para contarte sobre nuestros planes, asesorias y nuestra manera de trabajar para
+                poder brindarte la mejor experiencia y ayudarte a lograr tus metas
+            </p>
+
+
+            <form action="form.php" method="post">
+                <input class="controles" type="text" name="nombre" id="nombre-apellido" placeholder="Nombre y Apellido">
+                <input class="controles" type="text" name="" id="edad" placeholder="Edad">
+                <input class="controles" type="text" name="" id="peso" placeholder="Peso Corporal">
+
+
+                <select class="controles" name="genero" id="genero">
+                    <option value="genero">Genero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="prefiero-no-decirlo">Prefiero no decirlo</option>
+                </select>
+
+
+                <select class="controles" name="nivel-actividad" id="actividad">
+                    <option value="nivel-actividad">Nivel de Actividad</option>
+                    <option value="ninguna">Ninguna</option>
+                    <option value="baja">Baja</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                </select>
+
+                <textarea class="controles" name="" id="" cols="30" rows="5"
+                    placeholder="Contanos brevemente tus metas y objetivos"></textarea>
+
+                <input class="controles" type="text" name="" id="correo" placeholder="Correo Electronico">
+                <input class="controles" type="text" name="" id="tel" placeholder="Telefono de Contacto">
+                <input class="boton" type="button" value="Enviar">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- pie de pagina -->
+
+    <footer>
+        <p>derechos reservados por Facundo Pimentel</p>
+    </footer>
+
+</body>
+
+</html>
